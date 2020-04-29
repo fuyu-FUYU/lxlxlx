@@ -1,0 +1,96 @@
+/**index.wxss**/
+.content{
+  width: 100%;
+  height: 100%;
+}
+.usermotto {
+  margin-top: 200px;
+}
+.top{
+  width: 100%;
+  height: 82rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f3f3f3;
+}
+.top input{
+  width:618rpx;
+  height: 55rpx;
+  background: white;
+  border: 2rpx solid #dcdcdc;
+  border-radius: 30rpx;
+  padding-left: 30rpx;
+  font-size: 20rpx;
+  color: black;
+}
+.banner{
+  width: 100%;
+  height: 334rpx;
+}
+.banner image{
+  width: 100%;
+  height: 334rpx;
+}
+.na{
+  width: 100%;
+  height: 58rpx;
+  display: flex;
+}
+.na-item{
+  width: 25%;
+  display: flex;
+  align-items: center;
+  padding-left: 34rpx;
+  font-size: 20rpx;
+}
+.na-img{
+  width: 30rpx;
+  height: 30rpx;
+  margin-top: 3px;
+}
+.nv{
+  width: 100%;
+  height: 216rpx;
+  display: flex;
+  text-align: center;
+  padding-top: 64rpx;
+}
+.nv-item{
+  width: 25%;
+  height: 100%;
+  font-size: 22rpx;
+}
+.nv-item image{
+  width: 94rpx;
+  height: 68rpx;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 28rpx;
+}
+.hx{
+  width: 100%;
+  height: 144rpx;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.list{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-li{
+  width: 50%;
+  height: 442rpx;
+}
+.list-li image{
+  display: block;
+  width: 308rpx;
+  height: 224rpx;
+  margin: 0 auto;
+}
+.list-li text{
+  padding: 0 40rpx;
+  font-size: 24rpx;
+}

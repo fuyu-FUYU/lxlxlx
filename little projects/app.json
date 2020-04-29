@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/class/class",
+    "pages/cart/cart",
+    "pages/my/my",
+    "pages/details/details"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#55a2b6",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    },
+    {
+      "pagePath": "pages/class/class",
+      "text": "分类"
+    },
+    {
+      "pagePath": "pages/cart/cart",
+      "text": "购物车"
+    },
+    {
+      "pagePath": "pages/my/my",
+      "text": "我"
+    }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

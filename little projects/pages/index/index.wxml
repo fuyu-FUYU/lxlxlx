@@ -1,0 +1,57 @@
+<!--index.wxml-->
+<view class="content">
+  <view class="top">
+    <input placeholder="搜索商品，共有315款好物"></input>
+  </view>
+  <swiper class="banner" 
+    autoplay="{{true}}"
+    interval="2000"
+    circular="{{true}}"
+  > 
+    <swiper-item>
+      <image src="./images/1_06.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="./images/2,jpg_02.jpg"></image>
+    </swiper-item>
+  </swiper>
+  <view class="na">
+   <view class="na-item">
+     <image src="./images/11.jpg" class="na-img"></image>
+     <text>全场包邮</text>
+   </view>
+   <view class="na-item">
+     <image src="./images/11.jpg" class="na-img"></image>
+     <text>七天退换</text>
+   </view>
+   <view class="na-item">
+     <image src="./images/11.jpg" class="na-img"></image>
+     <text>原物实拍</text>
+   </view>
+   <view class="na-item">
+     <image src="./images/11.jpg" class="na-img"></image>
+     <text>全天客服</text>
+   </view>
+  </view>
+  <view class="nv">
+    <view class="nv-item" catchtap="tz" data-name="男鞋">
+      <image src="./images/1_10.jpg"></image>
+      <text class="nv-t">男鞋</text>
+    </view>
+    <view class="nv-item" catchtap="tz" data-name="女鞋">
+      <image src="./images/1_12.jpg"></image>
+      <text class="nv-t">女鞋</text>
+    </view>
+    <view class="nv-item" catchtap="tz" data-name="男女同款">
+      <image src="./images/1_14.jpg"></image>
+      <text class="nv-t">男女同款</text>
+    </view>
+    <view class="nv-item" catchtap="tz" data-name="搜索商品">
+      <image src="./images/1_16.jpg"></image>
+      <text class="nv-t">搜索商品</text>
+    </view>
+  </view>
+  <view class="hx">
+    <text>好鞋推荐</text>
+  </view>
+</view>
